@@ -4,8 +4,7 @@ Pathology Detection on Medical Images
 ## Problem Statement
 Can we distinguish diabetic retinopathy vs glaucoma
 
-## Data ( https://www.kaggle.com/c/vietai-advance-course-retinal-disease-detection/overview
-)
+## Data ( https://www.kaggle.com/c/vietai-advance-course-retinal-disease-detection/overview)
 
 Explanation of the data set: The training data set contains 3435 retinal images that represent multiple pathological disorders. The patholgy classes and corresponding labels are: included in 'train.csv' file and each image can have more than one class category (multiple pathologies). The labels for each image are
 
