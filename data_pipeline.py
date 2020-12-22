@@ -2,8 +2,8 @@ import tensorflow as tf
 import pandas as pd
 
 
-def __get_data():
-    return pd.read_csv('./Data/train/train-filtered.csv')
+def __get_data(csv_file):
+    return pd.read_csv(csv_file)
 
 def __pre_process(data):
     LABELS = list(data.columns[1:])
@@ -16,9 +16,9 @@ def __pre_process(data):
     return data
 
 
-def get_data_generators(data_dir, image_size, batch_size, validation_split=.30):
+def get_data_generators(data_dir, image_size, batch_size, validation_split=.30, csv_file='./Data/train/train-filtered.csv'):
 
-    data = __get_data()
+    data = __get_data(csv_file)
     data = __pre_process(data)
 
 
