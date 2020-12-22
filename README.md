@@ -2,7 +2,7 @@
 Pathology Detection on Medical Images
 
 ## Problem Statement
-Can we distinguish diabetic retinopathy vs glaucoma
+Can we distinguish diabetic retinopathy vs glaucoma vs normal
 
 ## Data ( https://www.kaggle.com/c/vietai-advance-course-retinal-disease-detection/overview)
 
@@ -22,5 +22,7 @@ The test data set contains 350 unlabelled images.
 2. [Model building with architecture and hyper params](./hparam_tuning.ipynb)
 3. [Prediction Outcome](./prediction_analysis.ipynb)
 4. [Heatmap Visualizations](./outcome_visualization.ipynb)
+5. [Label Propagate](./label_propagate.ipynb.ipynb)
+
 
 
